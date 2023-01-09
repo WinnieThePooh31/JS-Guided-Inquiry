@@ -1,9 +1,10 @@
+//very-easy//
 var x = 3;
 var y = 6;
 
 var result = y - x;
 console.log ( result );
-
+//easy//
 let name1 = "Gertie";
 let name2 = "Sandi";
 
@@ -14,6 +15,8 @@ if (name1.length > name2.length) {
   } else {
     console.log(name1 + " and " + name2 + " have the same length.");
   }
+//medium//
+
 let userInput = prompt("Enter some text:");
 
   if (userInput === userInput.toUpperCase()) {
@@ -23,7 +26,7 @@ let userInput = prompt("Enter some text:");
   } else {
     console.log("You are talking normally.");
   }
-
+//hard//
   function add(x, y) {
     return x + y;
   }
@@ -40,7 +43,7 @@ let userInput = prompt("Enter some text:");
     return x / y;
   }
 
-
+//very hard//
   let num1 = parseInt(prompt("Enter a number:"));
   let operator = prompt("Enter an operator (+, -, *, or /):");
   let num2 = parseInt(prompt("Enter another number:"));
@@ -58,4 +61,3 @@ let userInput = prompt("Enter some text:");
   }
   
   console.log("The result of " + num1 + " " + operator + " " + num2 + " is " + result + ".");
-  
